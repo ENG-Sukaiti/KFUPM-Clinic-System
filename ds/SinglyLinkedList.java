@@ -1,5 +1,6 @@
 package kfupm.clinic.ds;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /** Students implement. */
@@ -25,7 +26,7 @@ public class SinglyLinkedList<T> {
 
     private Node<T> head, tail;
 
-    SinglyLinkedList(){
+    public SinglyLinkedList(){
         head = tail = null;
     }
 
@@ -55,7 +56,7 @@ public class SinglyLinkedList<T> {
         tail = newNode;
     }
     public List<T> toList() {
-        List<T> list = new List<T>();
+        List<T> list = new ArrayList<>();
 
         Node<T> ptr = head;
 
