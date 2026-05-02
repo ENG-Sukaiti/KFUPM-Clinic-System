@@ -58,5 +58,5 @@ public class KMPMatcher implements StringMatcher {
         }
         return lps;
     }
-}r
 }
+
